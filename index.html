@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Style CSS -->
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Font Awesome CDN -->
+
+    <!-- Bootstrap Links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap Links -->
+
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <!-- Google Font -->
+
+
+    <!-- Aos Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Aos Animation -->
+
+</head>
+<body>
+    
+
+
+    <!-- Navbar Start -->
+    <div class="navbar">
+        <nav>
+            <input type="checkbox" id="show-search">
+            <input type="checkbox" id="show-menu">
+            <label for="show-menu" class="menu-icon"><i class="fa fa-bars"></i></label>
+
+            <div class="content">
+                <div class="logo"><img src="images\logo.png" alt=""></div>
+                    
+                <ul class="links">
+
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#order">Order</a></li>
+                </ul>
+                
+            </div>
+
+            <label for="show-search" class="search-icon"><i class="fa fa-search"></i></label>
+
+            <form action="#" class="search-box">
+                <input type="text" placeholder="Search" required>
+                <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+            </form>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Home Section Start -->
+    <section class="home">
+
+        <div class="home-content"  data-aos="zoom-in-down">
+            <h3>Enjoy Your <span>Cofee</span></h3>
+            <h3>Before Your Activity</h3>
+            <p>Our coffee is extraordinary due to its meticulously sourced beans, artisanal roasting process, and commitment to quality. Each cup delivers unparalleled richness, flavor, and satisfaction, surpassing expectations with every sip.</p>
+            
+            <button id="btn"><a href="#order">ORDER NOW</a><i class="fa-solid fa-arrow-right"></i></button>
+
+        </div>
+
+        <div class="img" data-aos="zoom-in-left"> 
+            <img src="images\bg.png" alt="">
+            
+        </div>
+
+    </section>
+    <!-- Home Section End -->
+
+
+
+    <!-- Top Card Start -->
+    <section class="top-card" id="tp-card" data-aos="fade-up"
+    data-aos-duration="1500">
+
+
+        <h3>Why We Are Defferent?</h3>
+        <p>We don't just make your coffee, we make your day!</p>
+
+        <div class="row">
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="images\coffee-beans 1.png" alt="">
+                    <h2>Supreme Coffee</h2>
+                    <p>coffee offers rich flavor, aromatic delight, and a luxurious experience. Each sip embodies perfection, awakening the senses with unparalleled satisfaction and indulgence.</p>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="images\badge 1.png" alt="">
+                    <h2>High Quality</h2>
+                    <p>High quality coffee boasts exquisite flavor, sourced from the finest beans, meticulously roasted to perfection. Every cup promises a delightful, invigorating experience, elevating your coffee enjoyment to new heights.</p>
+
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="images\coffee-cup 1.png" alt="">
+                    <h2>Extraordinary</h2>
+                    <p>Our coffee is extraordinary due to its meticulously sourced beans, artisanal roasting process, and commitment to quality. Each cup delivers unparalleled richness, flavor, and satisfaction, surpassing expectations with every sip.</p>
+
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="images\best-price 1.png" alt="">
+                    <h2>Affordable Prices</h2>
+                    <p>we provide high quality products in low price and you can feel that our price is pocket friendly and we provide the most affordable price in this segment.</p>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Top Card End -->
+
+
+
+    <!-- Menu Section Start -->
+    <section class="menu" id="menu">
+
+        <h3>Our Menu</h3>
+        <div class="row"  data-aos="fade-up"
+        data-aos-duration="1500">
+
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="images\m1.png" alt="">
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3>cortado <span>₹319</span></h3>
+                    <p>The customer himself, the customer will be able to pursue the adipiscing of the company. Moreover, he hates it.</p>
+                    <h6><button id="btn1">Shop Now</button> <button id="btn2">Add Cart</button></h6>
+
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="images\m2.png" alt="">
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3>Ristretto<span>₹249</span></h3>
+                    <p>The customer himself, the customer will be able to pursue the adipiscing of the company. Moreover, he hates it.</p>
+                    <h6><button id="btn1">Shop Now</button> <button id="btn2">Add Cart</button></h6>
+
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="images\m3.png" alt="">
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3>Doppio<span>₹209</span></h3>
+                    <p>The customer himself, the customer will be able to pursue the adipiscing of the company. Moreover, he hates it.</p>
+                    <h6><button id="btn1">Shop Now</button> <button id="btn2">Add Cart</button></h6>
+
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="images\m4.png" alt="">
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3>Espresso<span>₹219</span></h3>
+                    <p>The customer himself, the customer will be able to pursue the adipiscing of the company. Moreover, he hates it.</p>
+                    <h6><button id="btn1">Shop Now</button> <button id="btn2">Add Cart</button></h6>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row" style="margin-top: 30px;"  data-aos="fade-up"
+        data-aos-duration="1500">
+
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="images\m5.png" alt="">
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3>Decaf<span>₹129</span></h3>
+                    <p>The customer himself, the customer will be able to pursue the adipiscing of the company. Moreover, he hates it.</p>
+                    <h6><button id="btn1">Shop Now</button> <button id="btn2">Add Cart</button></h6>
+
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="images\m6.png" alt="">
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3>Arabica<span>₹199</span></h3>
+                    <p>The customer himself, the customer will be able to pursue the adipiscing of the company. Moreover, he hates it.</p>
+                    <h6><button id="btn1">Shop Now</button> <button id="btn2">Add Cart</button></h6>
+
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="images\m7.png" alt="">
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3>Cappuccino<span>₹199</span></h3>
+                    <p>The customer himself, the customer will be able to pursue the adipiscing of the company. Moreover, he hates it.</p>
+                    <h6><button id="btn1">Shop Now</button> <button id="btn2">Add Cart</button></h6>
+
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="images\m8.png" alt="">
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3>Black Coffee <span>₹149</span></h3>
+                    <p>The customer himself, the customer will be able to pursue the adipiscing of the company. Moreover, he hates it.</p>
+                    <h6><button id="btn1">Shop Now</button> <button id="btn2">Add Cart</button></h6>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Menu Section End -->
+
+
+   
+
+
+    <!-- Products Section Start -->
+    <section class="menu" id="products">
+
+        <h3>Our Products</h3>
+        <div class="row"  data-aos="fade-up"
+        data-aos-duration="1500">
+
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="images\p1 (1).png" alt="">
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3>Italian blend Coffee <span>₹399</span></h3>
+                    <p>The customer himself, the customer will be able to pursue the adipiscing of the company. Moreover, he hates it.</p>
+                    <h6><button id="btn1">Shop Now</button> <button id="btn2">Add Cart</button></h6>
+
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="images\p1 (2).png" alt="">
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3>Nero Coffee <span>₹499</span></h3>
+                    <p>The customer himself, the customer will be able to pursue the adipiscing of the company. Moreover, he hates it.</p>
+                    <h6><button id="btn1">Shop Now</button> <button id="btn2">Add Cart</button></h6>
+
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="images\p1 (3).png" alt="">
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3>Brazil Rex Coffee <span>₹549</span></h3>
+                    <p>The customer himself, the customer will be able to pursue the adipiscing of the company. Moreover, he hates it.</p>
+                    <h6><button id="btn1">Shop Now</button> <button id="btn2">Add Cart</button></h6>
+
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="images\p1 (4).png" alt="">
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3>Espresso Coffee <span>₹569</span></h3>
+                    <p>The customer himself, the customer will be able to pursue the adipiscing of the company. Moreover, he hates it.</p>
+                    <h6><button id="btn1">Shop Now</button> <button id="btn2">Add Cart</button></h6>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Products Section End -->
+
+
+    <!-- About Section Start -->
+    <section class="about" id="about"  data-aos="fade-up"
+    data-aos-duration="1500">
+
+        <div class="row">
+            <div class="col-md-5 py-3 py-md-0">
+                <div class="card">
+                    <img src="images\about-img.png" alt="">
+                </div>
+            </div>
+
+            <div class="col-md-7 py-3 py-md-0">
+
+                <h5>About us</h5>
+                <h3>Coffee Shop</h3>
+                <p>The company itself is a very successful company. All of which, for these blinded people prevent other present troubles, such as pains or bodily pains? Will it happen to a just finder of pleasure, often, or not, by enduring the great desire of the accusers? The duties of the happy flight to follow ours, to do with pain that he was repulsed by the labors of guilt. Mind, other pains!</p>
+                <p>कंपनी अपने आप में एक बेहद सफल कंपनी है. ये सभी, इन अंधे लोगों के लिए अन्य वर्तमान परेशानियों, जैसे दर्द या शारीरिक दर्द को रोकते हैं? क्या आरोप लगाने वालों की महान इच्छा को सहन करके, अक्सर, आनंद की खोज करने वाले न्यायप्रिय व्यक्ति के साथ ऐसा होगा या नहीं? खुश उड़ान के कर्तव्यों का पालन करने के लिए हमारे, दर्द के साथ ऐसा करने के लिए कि वह अपराध बोध के परिश्रम से विमुख हो गया था। मन, अन्य कष्ट!</p>
+                <button id="about-btn">Read More...</button>
+
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- About Section End -->
+
+
+    <!-- Order Section Start -->
+    <section class="order" id="order"  data-aos="fade-up"
+    data-aos-duration="1500">
+
+        <div class="row">
+            <div class="col-md-6">
+
+                <input type="text" class="form-control" placeholder="Name" required>
+                <input type="number" class="form-control" placeholder="Phone Number" required>
+                <input type="text" class="form-control" placeholder="What You Want" required>
+                <input type="number" class="form-control" placeholder="Quantity" required>
+                <textarea name="" id="" cols="30" rows="5" class="form-control"></textarea>
+
+                <button>
+                    <span>Order Now</span>
+                </button>
+
+            </div>
+
+            <div class="col-md-6 py-3 py-md-0">
+                <div class="order-info">
+                    <h3>Order Now</h3>
+                    <p>The customer himself, the customer will be able to pursue the adipiscing of the company. For in the smallest detail, shall I explain the things of the body if any one goes on? Pains?</p>
+
+                    <div class="list">
+                        <li><a href="#">+91 6200961357</a></li>
+                        <li><a href="#">shkr6134@gmail.com</a></li>
+                        <li><a href="#">Deoghar,Jharkhand,India</a></li>
+                    </div>
+                    <div class="social">
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-pinterest"></i>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Order Section End -->
+
+
+
+    <section class="reviews"  data-aos="fade-up"
+    data-aos-duration="1500">
+        <h3>What's Our Customars Say</h3>
+        <div class="row">
+            <div class="col-md-4 py-3 py-md-0">
+
+                <div class="card">
+                    <p><img src="images\Avatar Image.png" alt="">
+                    
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </p>
+                    <hr>
+                    <h6>कंपनी बहुत अच्छी है और जो कॉफी वे परोसते हैं वह बहुत स्वादिष्ट होती है। सभी कर्मचारी स्वभाव से बहुत दयालु हैं। मालिक शिवम भी अच्छे हैं और वह कंपनी को बहुत ऊंचाइयों पर ले जाएंगे। मैं कहूंगा कि आपको यहां की कॉफी का स्वाद चखना चाहिए।</h6>
+
+                </div>
+
+
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+
+                <div class="card">
+                    <p><img src="images\Avatar Image (1).png" alt="">
+                    
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </p>
+                    <hr>
+                    <h6>कंपनी अपने आप में एक बेहद सफल कंपनी है. वह महान पीड़ा के समय में उसे कुछ कर्तव्यों से रोकता है, क्योंकि ऐसे समय में जब आविष्कारक किसी भी बड़ी चीज़ से अंधा हो जाता है और उन लोगों के दर्द से भाग जाता है जो उसकी प्रशंसा करते हैं, उस कार्य की परेशानियों से जो वह करता है!</h6>
+                </div>
+
+
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+
+                <div class="card">
+                    <p><img src="images\Avatar Image (2).png" alt="">
+                    
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </p>
+                    <hr>
+                    <h6>The company itself is a very successful company. He flees from the pleasures of that mind, which, therefore, by enduring the pains of the troubles of the duties and the present, receives him from the just pain of the necessities of labor.</h6>
+
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer Start -->
+    <footer id="footer">
+        <div class="footer-content">
+            <div class="logo"><img src="images\logo.png" alt=""></div>
+            <p>It is very important for the customer to pay attention to the adipiscing process. How, in the rejection of life, there is for some the pleasure of truth, and that by which the free is born. Since.
+                It is very important for the customer to pay attention to the adipiscing process. Painful, exercise!
+            </p>
+            <div class="social-links">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-pinterest"></i>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+ <!-- Animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+    <!-- Animation -->
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
